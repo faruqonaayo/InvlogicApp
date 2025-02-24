@@ -1,0 +1,54 @@
+# .gitignore for Blazor Client and ASP.NET Web Server
+
+# Ignore build outputs
+bin/
+obj/
+wwwroot/
+
+# Ignore user-specific files
+.vscode/
+.vscode/*
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Mac files
+.DS_Store
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+*.snupkg
+
+# Ignore log files
+*.log
+
+# Ignore publish outputs
+publish/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.~*
+*.swp
+*.bak
+
+# Ignore other unnecessary files
+Thumbs.db
+*.~*
+
+# Ignore generated files
+**/generated/
+codegen/
+
+# Ignore node modules folder
+node_modules/
+
+# Ignore environment files
+.env
+
+# Ignore Visual Studio files
+.vs/
